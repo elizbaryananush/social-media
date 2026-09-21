@@ -28,7 +28,10 @@
     "packages/*"
   ],
   "dependencies": {
+    "@nestjs/typeorm": "^12.0.1",
     "nestjs-zod": "^5.5.0",
+    "pg": "^8.23.0",
+    "typeorm": "^1.1.1",
     "zod": "^4.6.5"
   }
 }
