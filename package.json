@@ -26,5 +26,9 @@
   "workspaces": [
     "apps/*",
     "packages/*"
-  ]
+  ],
+  "dependencies": {
+    "nestjs-zod": "^5.5.0",
+    "zod": "^4.6.5"
+  }
 }
