@@ -6,6 +6,8 @@ import {
   PrimaryGeneratedColumn,
 } from 'typeorm';
 
+import { AuthUserBase } from '@repo/contracts/src/auth/entities/auth-user.entity.dto';
+
 @Entity('auth_user')
 export class AuthUserEntity {
   @PrimaryGeneratedColumn('uuid')
